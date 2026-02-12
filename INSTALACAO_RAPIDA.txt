@@ -1,0 +1,146 @@
+FISIOTERAPIA INTEGRATIVA - LANDING PAGE
+Instalação Rápida
+
+================================================================================
+OPÇÃO 1: SERVIDOR LOCAL COM PYTHON (MAIS FÁCIL)
+================================================================================
+
+1. Abra o terminal/cmd na pasta do projeto
+2. Digite: python3 -m http.server 8000
+3. Abra o navegador em: http://localhost:8000
+4. Pronto! A página está rodando
+
+Nota: Se usar Windows e não tiver Python, baixe em python.org
+
+
+================================================================================
+OPÇÃO 2: SERVIDOR LOCAL COM NODE.JS
+================================================================================
+
+1. Instale Node.js de nodejs.org
+2. Abra o terminal na pasta do projeto
+3. Digite: npx http-server
+4. Abra o navegador no endereço mostrado
+5. Pronto!
+
+
+================================================================================
+OPÇÃO 3: UPLOAD PARA HOSPEDAGEM (RECOMENDADO PARA PRODUÇÃO)
+================================================================================
+
+A. NETLIFY (Gratuito e Fácil)
+   1. Acesse netlify.com
+   2. Faça login com GitHub/Google
+   3. Arraste a pasta do projeto
+   4. Pronto! Seu site está online
+
+B. VERCEL (Gratuito e Rápido)
+   1. Acesse vercel.com
+   2. Faça login com GitHub/Google
+   3. Importe o projeto
+   4. Pronto! Seu site está online
+
+C. HOSPEDAGEM TRADICIONAL (cPanel, Plesk, etc)
+   1. Faça upload de TODOS os arquivos via FTP
+   2. Configure o servidor para servir index.html como padrão
+   3. Acesse seu domínio
+
+
+================================================================================
+ARQUIVOS IMPORTANTES
+================================================================================
+
+index.html
+  - Arquivo principal da página
+  - Contém toda a estrutura HTML
+  - Edite aqui para mudar textos
+
+assets/index-DYfRqMfI.js
+  - JavaScript compilado (React + componentes)
+  - Não edite diretamente
+
+assets/index-D_Jz3oJT.css
+  - CSS compilado (Tailwind + estilos)
+  - Não edite diretamente
+
+
+================================================================================
+COMO PERSONALIZAR
+================================================================================
+
+1. MUDAR TEXTOS:
+   - Abra index.html com editor de texto
+   - Procure pelo texto que quer mudar
+   - Edite e salve
+
+2. MUDAR IMAGENS:
+   - Procure por "src=" no index.html
+   - Substitua a URL pela sua imagem
+
+3. MUDAR CORES:
+   - Procure por "oklch(" no index.html
+   - Altere os valores de cor
+
+4. MUDAR INFORMAÇÕES DE CONTATO:
+   - Procure por telefone, email, Instagram
+   - Atualize com seus dados
+
+
+================================================================================
+INTEGRAÇÃO COM GOOGLE SHEETS
+================================================================================
+
+Para receber leads do formulário em uma planilha:
+
+1. Acesse forms.google.com
+2. Crie um novo formulário
+3. Adicione campos: Nome, Email, Telefone, Mensagem
+4. Clique em "Enviar" e copie o link
+5. Abra o link em modo de pré-visualização
+6. Abra o console do navegador (F12)
+7. Procure por "entry.XXXXX" nos dados do formulário
+8. Edite o index.html e substitua os IDs dos campos
+9. Pronto! Os dados irão para sua planilha
+
+
+================================================================================
+PROBLEMAS COMUNS
+================================================================================
+
+P: A página não carrega
+R: Verifique se o servidor está rodando. Tente recarregar (Ctrl+F5)
+
+P: Estilos não aparecem
+R: Limpe o cache (Ctrl+Shift+Delete) e recarregue
+
+P: Imagens não carregam
+R: Verifique se as URLs estão corretas e acessíveis
+
+P: Formulário não funciona
+R: Configure o Google Form corretamente seguindo as instruções acima
+
+P: Página lenta
+R: Verifique a conexão de internet. Imagens grandes podem deixar lento.
+
+
+================================================================================
+SEGURANÇA
+================================================================================
+
+- Sempre use HTTPS em produção
+- Não compartilhe dados sensíveis no código
+- Valide dados do formulário no backend
+- Use senhas fortes para FTP/Hosting
+
+
+================================================================================
+SUPORTE
+================================================================================
+
+Para dúvidas ou problemas, consulte:
+- README.md (documentação completa)
+- Documentação do seu provedor de hospedagem
+- Stack Overflow para problemas técnicos
+
+
+Desenvolvido com React, Tailwind CSS e Design Organic Modernism
